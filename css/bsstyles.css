@@ -1,0 +1,93 @@
+.form{
+  margin: 80px;
+}
+#form{
+    background-color: rgb(210, 107, 40);
+    margin: 30px 50px 30px 100px;
+    padding: 30px 0px 30px 60px;
+    height: auto !important;
+    width: 75vw !important;
+}
+
+#firstName, #phoneNumber{
+    width: 30vw ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    position: relative;
+
+
+}
+
+#lastName, #email{
+    margin-left: 50px;
+    width: 30vw ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    position: relative;
+}
+#genderSelection{
+    margin-left: 50px;
+    width: 30vw ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+
+#date{
+    width: 30vw ;
+    border: none;
+    outline: none;
+    padding: 10px 15px; 
+}
+
+#courseSelection, #sessionSelection{
+    width: 64vw ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+.form-control input {
+    display:block;
+    position: sticky;
+  }
+ span {
+    display: block;
+    background: rgb(210, 107, 40);
+    text-align: center;
+    place-self: center center;
+    padding-left: 20px;
+    font-size: 10px;
+}
+.form-control span {
+    position: inherit;
+    visibility: hidden;
+  
+  }
+  
+  .form-control.error span {
+    visibility: visible;
+    position: inherit;
+    display:block;
+  }
+  
+
+
+#button {
+    background: goldenrod;
+    color: white;
+    border: none;
+    align-items: left;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  #button:hover {
+    cursor: pointer;
+    background: gold;
+    border: none;
+  }
+  #button:focus{
+    outline: none;
+    border: none;
+  }
