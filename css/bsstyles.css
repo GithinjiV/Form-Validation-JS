@@ -9,7 +9,7 @@
     background-color: rgb(210, 107, 40);
     height: auto !important;
     width: 100%!important;
-    padding-top: 30px;
+    padding: 30px;
 }
 
 input, select{
