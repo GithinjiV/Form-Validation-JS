@@ -1,16 +1,24 @@
+
 .form{
-  margin: 80px;
+  width: 100% !important;
 }
 #form{
     background-color: rgb(210, 107, 40);
-    margin: 30px 50px 30px 100px;
-    padding: 30px 0px 30px 60px;
+    margin: 30px 50px 30px 50px;
+    padding: 30px;
     height: auto !important;
-    width: 75vw !important;
+    width: 100% !important;
 }
 
-#firstName, #phoneNumber{
-    width: 30vw ;
+input, select{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  
+}
+
+/* #firstName, #phoneNumber{
+    width: 100% ;
     border: none;
     outline: none;
     padding: 10px 15px;
@@ -21,32 +29,26 @@
 
 #lastName, #email{
     margin-left: 50px;
-    width: 30vw ;
+    width: 100% ;
     border: none;
     outline: none;
     padding: 10px 15px;
     position: relative;
 }
-#genderSelection{
-    margin-left: 50px;
-    width: 30vw ;
-    border: none;
-    outline: none;
-    padding: 10px 15px;
-}
+*/
+/* #genderSelection{
+    width: 100% ;
+}  */
 
-#date{
-    width: 30vw ;
+/* #date{
+    width: 100% ;
     border: none;
     outline: none;
     padding: 10px 15px; 
-}
+} */
 
 #courseSelection, #sessionSelection{
-    width: 64vw ;
-    border: none;
-    outline: none;
-    padding: 10px 15px;
+    width: 100% ;
 }
 .form-control input {
     display:block;
