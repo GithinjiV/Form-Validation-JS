@@ -8,7 +8,7 @@ width: 100% !important;
 }
 #form{
     background-color: rgb(210, 107, 40);
-    height: auto !important;
+    height: 100% !important;
     width: 100% !important;
 }
 
@@ -17,6 +17,8 @@ input, select{
   padding: 10px;
   margin: auto;
   align-self: center center;
+  background: #fff;
+  border: none;
 }
 
 
