@@ -5,6 +5,7 @@ width: 100% !important;
 }
 .form{
   width: 100% !important;
+  display: flex;
 }
 #form{
     background-color: rgb(210, 107, 40);
@@ -16,7 +17,6 @@ input, select{
   width: 100%;
   padding: 10px;
   margin: auto;
-  align-self: center center;
   background: #fff;
   border: none;
 }
