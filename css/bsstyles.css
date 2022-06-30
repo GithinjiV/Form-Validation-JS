@@ -1,11 +1,13 @@
-
+.container{
+margin: 0px;
+padding: 30px;
+width: 100% !important;
+}
 .form{
   width: 100% !important;
 }
 #form{
     background-color: rgb(210, 107, 40);
-    margin: 30px 50px 30px 50px;
-    padding: 30px;
     height: auto !important;
     width: 100% !important;
 }
@@ -13,47 +15,11 @@
 input, select{
   width: 100%;
   padding: 10px;
-  border: none;
-  
+  margin: auto;
+  align-self: center center;
 }
 
-/* #firstName, #phoneNumber{
-    width: 100% ;
-    border: none;
-    outline: none;
-    padding: 10px 15px;
-    position: relative;
 
-
-}
-
-#lastName, #email{
-    margin-left: 50px;
-    width: 100% ;
-    border: none;
-    outline: none;
-    padding: 10px 15px;
-    position: relative;
-}
-*/
-/* #genderSelection{
-    width: 100% ;
-}  */
-
-/* #date{
-    width: 100% ;
-    border: none;
-    outline: none;
-    padding: 10px 15px; 
-} */
-
-#courseSelection, #sessionSelection{
-    width: 100% ;
-}
-.form-control input {
-    display:block;
-    position: sticky;
-  }
  span {
     display: block;
     background: rgb(210, 107, 40);
