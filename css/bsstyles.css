@@ -1,14 +1,14 @@
-.container{
+.container-fluid{
   margin: 0px;
   padding: 30px;
-  width: 100% !important;
+  width:100%!important;
 }
 
 
 #form{
     background-color: rgb(210, 107, 40);
-    height: 100% !important;
-    width: 100% !important;
+    height: auto !important;
+    width: 100%!important;
 }
 
 input, select{
